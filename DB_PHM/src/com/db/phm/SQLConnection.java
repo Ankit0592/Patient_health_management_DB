@@ -7,8 +7,9 @@ public class SQLConnection {
     static final String jdbcURL 
 	= "jdbc:oracle:thin:@orca.csc.ncsu.edu:1521:orcl01";
     
-    String user = "dgupta9";	
-    String passwd = "200151449";	
+	// Add your credentials here
+    String user = "******";	
+    String passwd = "*******";	
             
     public static Connection conn = null;
     public static Statement stmt = null;
